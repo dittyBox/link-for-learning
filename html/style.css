@@ -1,0 +1,19 @@
+.dropdown {
+    display: none;
+}
+
+.marker{
+    padding-left: 10px;
+    width: 50px;
+}
+.dropdown-toggle{
+    cursor:pointer;
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display:none;
+}
