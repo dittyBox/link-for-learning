@@ -15,3 +15,12 @@ dropdownToggles.forEach(function (item) {
         console.log(marker);
     })
 })
+
+// 실수로 a테그에 target을 지정을 안하였다.
+// dropdown안의 a테그에 전부 target 지정을 해보자.
+
+
+var atage = document.querySelectorAll('.dropdown a');
+atage.forEach(function (item) {
+    item.setAttribute('target', '_blank');
+})
